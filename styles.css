@@ -11,6 +11,10 @@
     --color-secondary: #d50032;
     --color-extra: #d4e9e2;
 }
+html
+{
+  scroll-behavior: smooth;
+}
 body
 {
   font-family: 'Readex Pro', sans-serif;
