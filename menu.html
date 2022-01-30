@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://kit.fontawesome.com/ac39ff4106.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Menu:STARBUCKS Coffee Company</title>
+</head>
+<body>
+  <header class="sticky">
+    <nav>
+      <div class="navbar-container">
+        <div class="brand">
+          <a href="index.html"><img src="images/logo.svg" alt="STARBUCKS Logo"></a>
+        </div>
+        <div class="navbar-nav">
+          <div class="navbar-nav-left">
+            <ul>
+              <li><a href="menu.html">MENU</a></li>
+              <li><a href="Rewards.html">REWARDS</a></li>
+              <li><a href="">GIFT CARDS</a></li>
+            </ul>
+          </div>
+          <div class="navbar-nav-right">
+            <ul>
+              <li><a href=""><i class="fas fa-map-marker-alt"></i> Find a store</a></li>
+              <li><a class="navbar-btns" href="">Sign in</a></li>
+              <li><a class="navbar-btns" href="">Join now</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="menu-button-con">
+          <div class="menu-button"></div>
+        </div>
+      </div>
+      <div class="hamburger-navs-mask">
+
+      </div>
+      <div id="primary-hamburger-nav-panel" class="primary-hamburger-nav-panel-con hamburger-navs">
+        <ul>
+          <li> <button class="secondary-open-btn" type="button" name="button"> <span>Menu</span><i class="fas fa-chevron-right"></i> </button></li>
+          <li><a href="D:\Web Development\Dec-2021\Starbuks clone\Rewards.html">Rewards</a></li>
+          <li><a href="">Gift Cards</a></li>
+        </ul>
+        <hr>
+        <div class="">
+          <a class="navbar-btns" href="">Sign in</a>
+          <a class="navbar-btns" href="">Join now</a>
+          <a class="block" href=""><i class="fas  fa-map-marker-alt"></i> Find a store</a>
+        </div>
+      </div>
+      <div id="secondary-hamburger-nav-panel" class="secondary-hamburger-nav-panel-con hamburger-navs">
+        <ul>
+          <li><button class="secondary-open-btn" type="button" name="button"><i class="fas fa-chevron-left"></i> <span>Menu</span></li>
+          <li><a href="menu.html">All products</a></li>
+          <li><a href="">Featured</a></li>
+          <li><a href="">Previous Orders</a></li>
+          <li><a href="">Favorite Products</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div class="menu-container">
+    <div class="menu-flex">
+      <aside class="menu-side-sections left-side">
+
+      </aside>
+      <aside class="menu-side-sections right-side">
+        <h1>Menu</h1>
+      </aside>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+  <script src="script.js" charset="utf-8"></script>
+  <script src="displayMenu.js" charset="utf-8"></script>
+</body>
+</html>
